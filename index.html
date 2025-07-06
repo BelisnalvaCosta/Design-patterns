@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Design Patterns Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚗 Fábrica de Carros (Factory)</h1>
+<div class="section">
+    <button onclick="criarCarro('popular')">Criar Carro Popular</button>
+    <button onclick="criarCarro('esportivo')">Criar Carro Esportivo</button>
+    <div id="carros"></div>
+</div>
+
+<hr>
+
+<h1>🧠 Estratégia de Ataque (Strategy)</h1>
+<div class="section">
+    <button onclick="setEstrategia('espada')">Usar Espada</button>
+    <button onclick="setEstrategia('arco')">Usar Arco</button>
+    <button onclick="personagem.atacar()">Atacar</button>
+    <div id="ataque"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
